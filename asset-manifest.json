@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bengaluru-traffic-viewer/static/css/main.d2bb91cf.css",
+    "main.js": "/bengaluru-traffic-viewer/static/js/main.71962db7.js",
+    "index.html": "/bengaluru-traffic-viewer/index.html",
+    "main.d2bb91cf.css.map": "/bengaluru-traffic-viewer/static/css/main.d2bb91cf.css.map",
+    "main.71962db7.js.map": "/bengaluru-traffic-viewer/static/js/main.71962db7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2bb91cf.css",
+    "static/js/main.71962db7.js"
+  ]
+}
