@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #1a1d27;
+  border-bottom: 2px solid #B8860B;
+  z-index: 1000;
+  min-height: 58px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  font-size: 28px;
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f0c040;
+  letter-spacing: 0.3px;
+}
+
+.header-sub {
+  font-size: 11px;
+  color: #8899aa;
+  margin-top: 2px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.osm-badge {
+  font-size: 11px;
+  color: #7aadca;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid #2a4a5e;
+  border-radius: 4px;
+  background: #16202d;
+}
+
+.osm-badge:hover {
+  background: #1e2d3d;
+}
+
+.github-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 6px 14px;
+  background: #24292e;
+  border: 1px solid #444;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.github-btn:hover {
+  background: #333;
+}

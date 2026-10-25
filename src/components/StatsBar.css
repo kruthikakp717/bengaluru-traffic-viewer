@@ -1,0 +1,62 @@
+.stats-bar {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  background: #1a1d27;
+  border-top: 1px solid #2a2d3d;
+  gap: 0;
+  min-height: 48px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px;
+}
+
+.stat-icon {
+  font-size: 16px;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f0c040;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: #5a6878;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 28px;
+  background: #2a2d3d;
+}
+
+.stat-right {
+  margin-left: auto;
+}
+
+.live-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: #22c55e;
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

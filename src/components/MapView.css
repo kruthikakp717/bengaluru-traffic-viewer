@@ -1,0 +1,9 @@
+.map-view {
+  flex: 1;
+  width: 100%;
+  background: #1a1d27;
+}
+
+.leaflet-container {
+  background: #2a2d3d;
+}
